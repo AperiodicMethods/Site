@@ -1,0 +1,12 @@
+format: jb-book
+root: docs/index
+options:
+  caption: Notebooks
+chapters:
+- file: notebooks/00-XX
+- file: notebooks/01-XX
+- file: notebooks/02-XX
+- file: notebooks/03-XX
+- file: notebooks/04-XX
+- file: notebooks/05-XX
+- file: notebooks/06-XX

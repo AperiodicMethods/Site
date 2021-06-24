@@ -1,0 +1,5 @@
+# Ignore local builds of the textbook
+apmethods/_build/*
+
+# Ignore any notebook checkpoint files
+*.ipynb_checkpoints*

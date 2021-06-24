@@ -1,0 +1,30 @@
+#######################################################################################
+# Book settings
+title     : Aperiodic  Methods
+author    : Thomas Donoghue
+copyright : "2021-"
+logo      : ""
+
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks           : cache
+
+#######################################################################################
+# HTML-specific settings
+html:
+  home_page_in_navbar         : false
+
+# #######################################################################################
+# Interact link settings
+notebook_interface            : "notebook"
+
+#######################################################################################
+# Launch button settings
+repository:
+  url                         : https://github.com/aperiodicmethods/
+  path_to_book                : "apmethods"
+
+binder:
+  binderhub_url               : "https://mybinder.org"
+  text                        : "Launch binder"
