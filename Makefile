@@ -1,4 +1,4 @@
-# Makefile for the OscillationMethods site
+# Makefile for the AperiodicMethods site
 
 
 ##########################################################################
