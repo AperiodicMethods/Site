@@ -1,4 +1,4 @@
-# Makefile for the OscillationMethods site
+# Makefile for the AperiodicMethods site
 
 
 ##########################################################################
@@ -11,8 +11,8 @@
 ## VARIABLES
 
 BOOK			= apmethods
-CONTENT-ORG		= https://github.com/voytekresearch
-BOOK-ORG		= https://github.com/aperiodicmethods
+GITHUB-ORG		= https://github.com/AperiodicMethods
+CONTENT-REPO		= aperiodicmethods
 SITE-LOC		= aperiodicmethods.github.io
 
 ##########################################################################
@@ -26,7 +26,7 @@ clone:
 clone-notebooks:
 
 	# Copy tutorial materials
-	@git clone --depth 1 $(CONTENT-ORG)/AperiodicMethods $(BOOK)/temp
+	@git clone --depth 1 $(GITHUB-ORG)/$(CONTENT-REPO) $(BOOK)/notebooks
 	@mv $(BOOK)/temp/notebooks $(BOOK)/notebooks/
 	@rm -rf $(BOOK)/temp/
 
@@ -57,7 +57,7 @@ deploy:
 
 	# Clone the website deployment repository
 	rm -rf $(BOOK)/_build/deploy/
-	git clone --depth 1 $(BOOK-ORG)/$(SITE-LOC) $(BOOK)/_build/deploy/
+	git clone --depth 1 $(GITHUB-ORG)/$(SITE-LOC) $(BOOK)/_build/deploy/
 
 	# A .nojekyll file tells Github pages to bypass Jekyll processing
 	touch $(BOOK)/_build/deploy/.nojekyll
