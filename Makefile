@@ -26,9 +26,9 @@ clone:
 clone-notebooks:
 
 	# Copy tutorial materials
-	@git clone --depth 1 $(CONTENT-ORG)/AperiodicMethods $(BOOK)/notebooks
-	@rm $(BOOK)/notebooks/README.md
-	@rm -rf $(BOOK)/notebooks/.git
+	@git clone --depth 1 $(CONTENT-ORG)/AperiodicMethods $(BOOK)/temp
+	@mv $(BOOK)/temp/notebooks $(BOOK)/notebooks/
+	@rm -rf $(BOOK)/temp/
 
 ##########################################################################
 ## BUILDING SITE
