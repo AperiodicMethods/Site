@@ -26,7 +26,7 @@ clone:
 clone-notebooks:
 
 	# Copy tutorial materials
-	@git clone --depth 1 $(GITHUB-ORG)/$(CONTENT-REPO) $(BOOK)/notebooks
+	@git clone --depth 1 $(GITHUB-ORG)/$(CONTENT-REPO) $(BOOK)/temp
 	@mv $(BOOK)/temp/notebooks $(BOOK)/notebooks/
 	@rm -rf $(BOOK)/temp/
 
