@@ -1,5 +1,8 @@
 # Ignore local builds of the textbook
 apmethods/_build/*
 
+# Ignore copied in folder of notebooks
+apmethods/notebooks/
+
 # Ignore any notebook checkpoint files
 *.ipynb_checkpoints*
