@@ -1,30 +1,34 @@
 # Aperiodic Methods Project
 
-**This is the index page - it still needs updating.**
+**This project & website are still under development.**
 
 Welcome to the Aperiodic Methods project!
 
-This website hosts an online version of the code and figures for the project "...".
+This website hosts an online version of the code and figures for the project 'Aperiodic Methods' project, which
+surveys and compares available methods for measuring aperiodic activity in neural data.
 
 ## Overview
 
-...
+To examine these methods, we use simulated data with known aperiodic and periodic properties in order to evaluate aperiodic
+methods and how they perform on neural data.
+
+Topics include:
+- Spectral Line Fitting
+- IRASA
+- DFA
+- Entropy (information theory metrics)
+
+Available materials are created as [Jupyter Notebooks](https://jupyter.org), and are intended to be executed and explored in a hands-on manner.
+There is a download link at the top left of the page, that can be used to download each page as a notebook.
 
 ## Reference
 
-...
-
-## Content
-
-Available materials include:
-- xx
-- xx
-
-These materials are created as [Jupyter Notebooks](https://jupyter.org), and are intended to be executed and explored in a hands-on manner. There is a download link at the top left of the page, that can be used to download each page as a notebook.
+A reference for this project is upcoming.
 
 ## Source
 
-The source repository for this website is available [here](https://github.com/AperiodicMethods/Site).
+The source repository for this website is available
+[here](https://github.com/AperiodicMethods/Site).
 
 ## License
 
