@@ -3,10 +3,12 @@ root: docs/index
 options:
   caption: Notebooks
 chapters:
-- file: notebooks/00-XX
-- file: notebooks/01-XX
-- file: notebooks/02-XX
-- file: notebooks/03-XX
-- file: notebooks/04-XX
-- file: notebooks/05-XX
-- file: notebooks/06-XX
+- file: notebooks/00-Simulations
+- file: notebooks/01-SpectralFitting
+- file: notebooks/02-FittingSimSpectra
+- file: notebooks/03-CompareSpectralFits
+- file: notebooks/04-IRASA
+- file: notebooks/05-DFA
+- file: notebooks/06-Hurst
+- file: notebooks/07-Information
+- file: notebooks/A1-AutoCorrelation
