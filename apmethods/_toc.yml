@@ -1,14 +1,16 @@
 format: jb-book
 root: docs/index
-options:
-  caption: Notebooks
-chapters:
-- file: notebooks/00-Simulations
-- file: notebooks/01-SpectralFitting
-- file: notebooks/02-FittingSimSpectra
-- file: notebooks/03-CompareSpectralFits
-- file: notebooks/04-IRASA
-- file: notebooks/05-DFA
-- file: notebooks/06-Hurst
-- file: notebooks/07-Information
-- file: notebooks/A1-AutoCorrelation
+parts:
+  - caption: Introduction
+    chapters:
+      - file: notebooks/00-Overview
+      - file: notebooks/01-LiteratureSearch
+      - file: notebooks/02-Simulations
+  - caption: Methods
+    chapters:
+      - file: notebooks/10-SpectralFitting
+      - file: notebooks/11-IRASA
+      - file: notebooks/12-AutoCorrelation
+      - file: notebooks/13-Fluctuations
+      - file: notebooks/14-Complexity
+      - file: notebooks/15-Information
