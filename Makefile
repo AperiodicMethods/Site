@@ -33,6 +33,9 @@ clone-notebooks:
 ##########################################################################
 ## BUILDING SITE
 
+# Clean out the built version of the book
+clean:
+	jupyter-book clean $(BOOK)/
 
 # Clear out the copied repositories
 clear:
