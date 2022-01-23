@@ -8,9 +8,22 @@ parts:
       - file: notebooks/02-Simulations
   - caption: Methods
     chapters:
-      - file: notebooks/10-SpectralFitting
-      - file: notebooks/11-IRASA
-      - file: notebooks/12-AutoCorrelation
-      - file: notebooks/13-Fluctuations
-      - file: notebooks/14-Complexity
-      - file: notebooks/15-Information
+      - file: notebooks/10-Methods
+      - file: notebooks/11-SpectralFitting
+      - file: notebooks/12-IRASA
+      - file: notebooks/13-AutoCorrelation
+      - file: notebooks/14-Fluctuations
+      - file: notebooks/15-Complexity
+      - file: notebooks/16-Information
+  - caption: Comparisons
+    chapters:
+      - file: notebooks/20-MethodComparisons
+      - file: notebooks/21-CompareExponents
+      - file: notebooks/22-CompareExponentToOther
+      - file: notebooks/23-CompareOther
+  - caption: Real Data
+    chapters:
+      - file: notebooks/30-DataComparisons
+      - file: notebooks/31-EEGData
+      - file: notebooks/32-DevelopmentalEEGData
+      - file: notebooks/33-iEEGData
