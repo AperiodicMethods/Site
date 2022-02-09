@@ -6,7 +6,7 @@ parts:
       - file: notebooks/00-Overview
       - file: notebooks/01-LiteratureSearch
       - file: notebooks/02-Simulations
-  - caption: Methods
+  - caption: Method Evaluations
     chapters:
       - file: notebooks/10-Methods
       - file: notebooks/11-SpectralFitting
@@ -15,15 +15,15 @@ parts:
       - file: notebooks/14-Fluctuations
       - file: notebooks/15-Complexity
       - file: notebooks/16-Information
-  - caption: Comparisons
+  - caption: Method Comparisons
     chapters:
       - file: notebooks/20-MethodComparisons
-      - file: notebooks/21-CompareExponents
-      - file: notebooks/22-CompareExponentToOther
-      - file: notebooks/23-CompareOther
-  - caption: Real Data
+      - file: notebooks/21-ExponentComparisons
+      - file: notebooks/22-TimeDomainComparisons
+      - file: notebooks/23-ExponentvsTimeDomain
+  - caption: Data Applications
     chapters:
       - file: notebooks/30-DataComparisons
-      - file: notebooks/31-EEGData
+      - file: notebooks/31-RestingEEGData
       - file: notebooks/32-DevelopmentalEEGData
       - file: notebooks/33-iEEGData
