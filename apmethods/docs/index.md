@@ -13,10 +13,12 @@ To examine these methods, we use simulated data with known aperiodic and periodi
 methods and how they perform on neural data.
 
 Topics include:
-- Spectral Line Fitting
-- IRASA
-- DFA
-- Entropy (information theory metrics)
+- Spectral Line Fitting (e.g. spectral parameterization)
+- Decomposition Methods (e.g. IRASA)
+- AutoCorrelation Measures
+- Fluctuation Measures (e.g. Hurst Exponent, DFA)
+- Complexity Measures (e.g.: fractal dimension)
+- Information Theory Metrics (e.g. entropy)
 
 Available materials are created as [Jupyter Notebooks](https://jupyter.org), and are intended to be executed and explored in a hands-on manner.
 There is a download link at the top left of the page, that can be used to download each page as a notebook.
