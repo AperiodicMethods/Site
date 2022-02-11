@@ -12,16 +12,30 @@ surveys and compares available methods for measuring aperiodic activity in neura
 To examine these methods, we use simulated data with known aperiodic and periodic properties in order to evaluate aperiodic
 methods and how they perform on neural data.
 
-Topics include:
+This broadly is organized into the following sections:
+- 0) Introduction: introducing the main ideas and approaches of this project
+    - This section introduces the list of included methods, examines their prevalence in the literature, and introduces the data simulations
+- 1) Method Evaluations: evaluating each method independently
+    - This section introduces each method and characterizes it's performance on simulated data
+- 2) Method Comparisons: comparing different methods head-to-head
+    - This section compares methods directly to each other, on simulated data
+- 3) Data Applications: examining method performance and comparing between methods on real data
+    - This section applies the methods to EEG and iEEG datasets, to evaluate their performance on real data
+
+Available materials are created as [Jupyter Notebooks](https://jupyter.org), and are intended to be executed and explored in a hands-on manner.
+There is a download link at the top left of the page, that can be used to download each page as a notebook.
+
+## Methods
+
+For this project, 'aperiodic methods' are broadly construed
+
+Methods included in this project:
 - Spectral Line Fitting (e.g. spectral parameterization)
 - Decomposition Methods (e.g. IRASA)
 - AutoCorrelation Measures
 - Fluctuation Measures (e.g. Hurst Exponent, DFA)
 - Complexity Measures (e.g.: fractal dimension)
 - Information Theory Metrics (e.g. entropy)
-
-Available materials are created as [Jupyter Notebooks](https://jupyter.org), and are intended to be executed and explored in a hands-on manner.
-There is a download link at the top left of the page, that can be used to download each page as a notebook.
 
 ## Reference
 
