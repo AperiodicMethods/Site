@@ -48,5 +48,6 @@ The source repository for this website is available
 
 ## License
 
-The materials on this website are openly available under a
-[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
+The materials on this website are openly available for re-use, under a
+[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
+license.
