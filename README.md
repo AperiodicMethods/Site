@@ -10,36 +10,40 @@ This repository is the source repository for creating the
 website.
 
 These materials serve as a hosted version of materials for the
-[Aperiodic Methods](https://github.com/voytekresearch/AperiodicMethods)
+[Aperiodic Methods](https://github.com/AperiodicMethods/AperiodicMethods)
 project.
 
-This repository has the tools for building the website.
-The built version of book is then posted to the
-[website repository](https://github.com/AperiodicMethods/aperiodicmethods.github.io)
+This repository creates the website, which is then posted to the
+[website repository](https://github.com/AperiodicMethods/AperiodicMethods.github.io)
 for hosting.
 
-## Dependencies
-
-This project uses the Python programming language, and requires Python >= 3.6.
-
-Materials are written and available as [Jupyter Notebooks](https://jupyter.org/).
-
-Materials require packages from the scientific Python ecosystem.
-These dependencies can all be installed using the
-[Anaconda distribution](https://www.anaconda.com/products/individual).
-Details and instructions on the dependencies and how to get them are available in the
-[Project Repository](https://github.com/voytekresearch/oscillationmethods).
-
-The website is created using [JupyterBook](https://github.com/executablebooks/jupyter-book).
-
 ## Organization
+
+This repository contains the code to create the website, whereas the actual
+materials that are hosted are in the
+[project repository](https://github.com/AperiodicMethods/AperiodicMethods).
 
 This repository contains the following sections:
 
 - `apmethods/` contains the content of the website, including sub-sections:
     - `docs/` contains the source for written sections of the site
-    - `notebooks/` contains the notebooks used to create the project
+
+## Dependencies
+
+This project uses the Python programming language.
+
+The website is created using [JupyterBook](https://github.com/executablebooks/jupyter-book).
+
+The full set of requirements to build the website available in the `requirements.txt` file.
+
+The materials that are hosted on the website are in the
+[project repository](https://github.com/AperiodicMethods/AperiodicMethods).
+
+To rebuild the website dependencies of the project repository are also required, with
+details and instructions on these dependencies and how to get them being available in the
+project repository.
 
 ## License
 
-These materials are made freely available, and are licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
+These materials are made freely available, and are licensed under a
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
