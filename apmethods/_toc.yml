@@ -4,26 +4,40 @@ parts:
   - caption: Introduction
     chapters:
       - file: notebooks/00-Overview
+      - file: notebooks/01-Outline
       - file: notebooks/01-LiteratureSearch
-      - file: notebooks/02-Simulations
-  - caption: Method Evaluations
+  - caption: Simulations
     chapters:
-      - file: notebooks/10-Methods
-      - file: notebooks/11-SpectralFitting
-      - file: notebooks/12-IRASA
-      - file: notebooks/13-AutoCorrelation
-      - file: notebooks/14-Fluctuations
-      - file: notebooks/15-Complexity
-      - file: notebooks/16-Information
+      - file: notebooks/10-Simulations
+      - file: notebooks/11-TimeDomainSims
+      - file: notebooks/12-PowerSpectrumSimulations
+      - file: notebooks/13-SimulationTests
+      - file: notebooks/14-SimulationComparisons
+      - file: notebooks/15-PrecomputeSims
+  - caption: Spectral Method Evaluations
+    chapters:
+      - file: notebooks/20-SpectralMethods
+      - file: notebooks/21-SpectralFitting
+      - file: notebooks/22-SpecParam
+      - file: notebooks/23-IRASA
+      - file: notebooks/24-ExponentComparison
+  - caption: Time Domain Method Evaluations
+    chapters:
+      - file: notebooks/30-TimeDomainMethods
+      - file: notebooks/31-AutoCorrelation
+      - file: notebooks/32-Fluctuations
+      - file: notebooks/33-FractalDimension
+      - file: notebooks/34-Complexity
+      - file: notebooks/35-Entropy
+      - file: notebooks/36-MultiscaleEntropy
   - caption: Method Comparisons
     chapters:
-      - file: notebooks/20-MethodComparisons
-      - file: notebooks/21-ExponentComparisons
-      - file: notebooks/22-TimeDomainComparisons
-      - file: notebooks/23-ExponentvsTimeDomain
+      - file: notebooks/40-MethodComparisons
+      - file: notebooks/41-WithinComparisons
+      - file: notebooks/42-BetweenComparisons
   - caption: Data Applications
     chapters:
-      - file: notebooks/30-DataComparisons
-      - file: notebooks/31-RestingEEGData
-      - file: notebooks/32-DevelopmentalEEGData
-      - file: notebooks/33-iEEGData
+      - file: notebooks/50-DataComparisons
+      - file: notebooks/51-RestingEEGData
+      - file: notebooks/52-DevelopmentalEEGData
+      - file: notebooks/53-iEEGData
