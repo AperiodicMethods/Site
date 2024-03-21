@@ -9,27 +9,30 @@ parts:
   - caption: Simulations
     chapters:
       - file: notebooks/10-Simulations
-      - file: notebooks/11-TimeDomainSims
-      - file: notebooks/12-PowerSpectrumSimulations
+      - file: notebooks/11-TimeDomainSimulations
+      - file: notebooks/12-TimeSimsParameters
       - file: notebooks/13-SimulationTests
       - file: notebooks/14-SimulationComparisons
-      - file: notebooks/15-PrecomputeSims
-  - caption: Spectral Method Evaluations
-    chapters:
-      - file: notebooks/20-SpectralMethods
-      - file: notebooks/21-SpectralFitting
-      - file: notebooks/22-SpecParam
-      - file: notebooks/23-IRASA
-      - file: notebooks/24-ExponentComparison
+      - file: notebooks/15-PowerSpectrumSimulations
   - caption: Time Domain Method Evaluations
     chapters:
-      - file: notebooks/30-TimeDomainMethods
-      - file: notebooks/31-AutoCorrelation
-      - file: notebooks/32-Fluctuations
-      - file: notebooks/33-FractalDimension
-      - file: notebooks/34-Complexity
-      - file: notebooks/35-Entropy
-      - file: notebooks/36-MultiscaleEntropy
+      - file: notebooks/20-TimeDomainMethods
+      - file: notebooks/21-AutoCorrelation
+      - file: notebooks/22-Fluctuations
+      - file: notebooks/22B-Fluctuations-Multiscale
+      - file: notebooks/23-FractalDimension
+      - file: notebooks/23B-Fractal-State
+      - file: notebooks/24-Complexity
+      - file: notebooks/24B-Complexity-State
+      - file: notebooks/25-Entropy
+      - file: notebooks/25B-Entropy-Multiscale
+  - caption: Spectral Method Evaluations
+    chapters:
+      - file: notebooks/30-SpectralMethods
+      - file: notebooks/31-SpectralFitting
+      - file: notebooks/32-SpecParam
+      - file: notebooks/33-IRASA
+      - file: notebooks/34-ExponentComparisons
   - caption: Method Comparisons
     chapters:
       - file: notebooks/40-MethodComparisons
