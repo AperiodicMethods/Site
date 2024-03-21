@@ -1,11 +1,14 @@
 # Aperiodic Methods Project
 
-**This project & website are still under development.**
-
 Welcome to the Aperiodic Methods project!
 
 This website hosts an online version of the code and figures for the project 'Aperiodic Methods' project, which
 surveys and compares available methods for measuring aperiodic activity in neural data.
+
+This project is led by
+[Tom Donoghue](https://tomdonoghue.github.io/),
+with contributions from members and affiliates (past and present) of the
+[Voytek lab](https://voyteklab.com/).
 
 ## Overview
 
@@ -30,12 +33,12 @@ There is a download link at the top left of the page, that can be used to downlo
 For this project, 'aperiodic methods' are broadly construed
 
 Methods included in this project:
-- Spectral Line Fitting (e.g. spectral parameterization)
-- Decomposition Methods (e.g. IRASA)
 - AutoCorrelation Measures
 - Fluctuation Measures (e.g. Hurst Exponent, DFA)
+- Fractal Dimension Measures (e.g. Higuchi's Fractal Dimension)
 - Complexity Measures (e.g.: fractal dimension)
 - Information Theory Metrics (e.g. entropy)
+- Spectral Domain Methods (e.g. spectral parameterization, IRASA)
 
 ## Reference
 
@@ -43,11 +46,14 @@ A reference for this project is upcoming.
 
 ## Source
 
-The source repository for this website is available
-[here](https://github.com/AperiodicMethods/Site).
+The materials hosted here are developed and managed in the
+[project repository](https://github.com/AperiodicMethods/AperiodicMethods).
+
+The source code for creating this website is available in the
+[site repository](https://github.com/AperiodicMethods/Site).
 
 ## License
 
 The materials on this website are openly available for re-use, under a
-[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
+[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 license.
