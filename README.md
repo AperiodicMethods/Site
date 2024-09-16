@@ -1,6 +1,7 @@
 # Aperiodic Methods Site
 
 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Website](https://img.shields.io/badge/site-aperiodicmethods.github.io-informational.svg)](https://aperiodicmethods.github.io)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Overview
@@ -16,6 +17,15 @@ project.
 This repository creates the website, which is then posted to the
 [website repository](https://github.com/AperiodicMethods/AperiodicMethods.github.io)
 for hosting.
+
+## Reference
+
+If you wish to cite information presented on the project website, please cite the following preprint:
+
+    Donoghue T, Hammonds R, Eric Lybrand, Waschke L, Gao R, & Voytek B. Evaluating and
+    Comparing Measures of Aperiodic Neural Activity. bioRxiv. DOI: 10.1101/2024.09.15.613114
+
+Direct Link: https://doi.org/10.1101/2024.09.15.613114
 
 ## Organization
 
